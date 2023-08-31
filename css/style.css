@@ -65,25 +65,30 @@ Start Header
 */
 
 .head{
+    padding-top:200px;
     display: flex;
-    height: 80vh;
-    flex-direction:column-reverse;
-
+    justify-content: space-between;
+    /* flex-direction:column-reverse; */
 }
-
 .head .info{
     width: 40%;
     padding-left: 250px;
     margin-top:150px;
 }
 .head .info h1{
-font-size: 60px;
+    font-size: 60px;
 }
 .head .info p{
     font-family: 'Jost', sans-serif;
     font-size: 24px;
     font-weight: 400;
     color: rgba(32, 32, 32, 0.6);
+}
+.head .imgData{
+    width: 50%;
+}
+.head .imgData img{
+    width: 70%;
 }
 .head .info button{
     background-color: rgb(255,165,0);
@@ -95,22 +100,13 @@ font-size: 60px;
     padding: 10px 30px;
     transition: all 0.5s;
     margin-top: 80px;
+    margin-bottom: 50px;
     cursor: pointer;
-
 }
 .head .info button:hover{
     background-color: rgb(58, 130, 193);
-
-}
-
-.head .imgData{
-    width: 50%;
-    margin-top: 90px;
-}
-
-.head .imgData img{
-    width: 70%;
-}
+} 
+ 
 
 /* 
 End Header
